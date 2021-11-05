@@ -3,7 +3,8 @@
 To use :
 
 ```
-git clone https://github.com/rakannimer/s3-bucket-deleter && cd s3-bucket-deleter && npm i && npm run start
+export AWS_PROFILE=<<YOUR_AWS_PROFILE>>
+git clone https://github.com/jingood2/s3-bucket-deleter && cd s3-bucket-deleter && npm i && npm run start
 ```
 
 For more information check out :
