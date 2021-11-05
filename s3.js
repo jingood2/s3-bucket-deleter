@@ -1,6 +1,6 @@
 // These 3 lines are not necessary if you're using the default aws profile
 const AWS = require("aws-sdk");
-var credentials = new AWS.SharedIniFileCredentials({ profile: "s3" });
+var credentials = new AWS.SharedIniFileCredentials({ profile: process.env.AWS_PROFILE });
 AWS.config.credentials = credentials;
 
 const S3 = require("aws-sdk/clients/s3");
